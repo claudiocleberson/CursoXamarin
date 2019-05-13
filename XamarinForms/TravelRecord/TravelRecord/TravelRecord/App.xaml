@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravelRecord.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!--Default colors-->
+            <Color x:Key="DefaultButtonColor">Blue</Color>
+            <Color x:Key="DefaultTextButtonColor">White</Color>
+            <Color x:Key="DefaultTextColor">Gray</Color>
+            
+            <!--Implicit Style - Default style attributed to target type-->
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource DefaultButtonColor}"/>
+                <Setter Property="TextColor" Value="{StaticResource DefaultTextButtonColor}"/>
+            </Style>
+
+            <!--Explicit Style  Attributed via Style="KeyNama"-->
+            <Style x:Key="NomalButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource DefaultButtonColor}"/>
+                <Setter Property="TextColor" Value="{StaticResource DefaultTextButtonColor}"/>
+            </Style>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

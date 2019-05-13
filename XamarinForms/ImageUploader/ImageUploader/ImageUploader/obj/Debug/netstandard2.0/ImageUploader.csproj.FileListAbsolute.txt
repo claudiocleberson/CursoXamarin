@@ -1,0 +1,12 @@
+D:\CursoXamarin\ImageUploader\ImageUploader\ImageUploader\bin\Debug\netstandard2.0\ImageUploader.deps.json
+D:\CursoXamarin\ImageUploader\ImageUploader\ImageUploader\bin\Debug\netstandard2.0\ImageUploader.dll
+D:\CursoXamarin\ImageUploader\ImageUploader\ImageUploader\obj\Debug\netstandard2.0\ImageUploader.csprojAssemblyReference.cache
+D:\CursoXamarin\ImageUploader\ImageUploader\ImageUploader\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\CursoXamarin\ImageUploader\ImageUploader\ImageUploader\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\CursoXamarin\ImageUploader\ImageUploader\ImageUploader\obj\Debug\netstandard2.0\ImageUploader.csproj.CoreCompileInputs.cache
+D:\CursoXamarin\ImageUploader\ImageUploader\ImageUploader\obj\Debug\netstandard2.0\ImageUploader.AssemblyInfoInputs.cache
+D:\CursoXamarin\ImageUploader\ImageUploader\ImageUploader\obj\Debug\netstandard2.0\ImageUploader.AssemblyInfo.cs
+D:\CursoXamarin\ImageUploader\ImageUploader\ImageUploader\bin\Debug\netstandard2.0\ImageUploader.pdb
+D:\CursoXamarin\ImageUploader\ImageUploader\ImageUploader\obj\Debug\netstandard2.0\ImageUploader.dll
+D:\CursoXamarin\ImageUploader\ImageUploader\ImageUploader\obj\Debug\netstandard2.0\ImageUploader.pdb
+D:\CursoXamarin\ImageUploader\ImageUploader\ImageUploader\obj\Debug\netstandard2.0\XamlC.stamp

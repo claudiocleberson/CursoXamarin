@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FlexLayout"
+             x:Class="FlexLayout.MainPage">
+
+    <ContentPage.Resources>
+        <Style TargetType="Frame">
+            <Setter Property="WidthRequest" Value="300"/>
+            <Setter Property="HeightRequest" Value="500"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="CornerRadius" Value="20"/>
+        </Style>
+    </ContentPage.Resources>
+    <ScrollView Orientation="Both">
+        
+        <FlexLayout  Direction="Row">
+            <Frame HasShadow="True" BackgroundColor="GreenYellow">
+                <FlexLayout JustifyContent="SpaceEvenly" Direction="Column">
+                    <Label FlexLayout.AlignSelf="Center" Text="Basic Subscription"
+                           TextColor="White"
+                           FontSize="25"
+                           FontAttributes="Bold"/>
+                    <Label Text="Get basic access to this app for free( Ads my be available )"
+                           TextColor="White"/>
+                    <Button Text="Select Subscription"
+                            BackgroundColor="White"
+                            TextColor="Black"/>
+                </FlexLayout>
+            </Frame>
+
+            <Frame HasShadow="True" BackgroundColor="Silver">
+                <FlexLayout JustifyContent="SpaceEvenly" Direction="Column">
+                    <Label FlexLayout.AlignSelf="Center" Text="Silve Subscription"
+                           TextColor="White"
+                           FontSize="25"
+                           FontAttributes="Bold"/>
+                    <Label Text="Get basic access to this app for free( Ads my be available )"
+                           TextColor="White"/>
+                    <Button Text="Select Subscription"
+                            BackgroundColor="White"
+                            TextColor="Black"/>
+                </FlexLayout>
+            </Frame>
+
+            <Frame HasShadow="True" BackgroundColor="Gold">
+                <FlexLayout JustifyContent="SpaceEvenly" Direction="Column">
+                    <Label FlexLayout.AlignSelf="Center" Text="Gold Subscription"
+                           TextColor="White"
+                           FontSize="25"
+                           FontAttributes="Bold"/>
+                    <Label Text="Get basic access to this app for free( Ads my be available )"
+                           TextColor="White"/>
+                    <Button Text="Select Subscription"
+                            BackgroundColor="White"
+                            TextColor="Black"/>
+                </FlexLayout>
+            </Frame>
+
+        </FlexLayout>
+    </ScrollView>
+
+</ContentPage>
